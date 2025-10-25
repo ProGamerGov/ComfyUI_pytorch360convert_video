@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-pytorch360convert-video"
+description = "Video nodes for comfyui-pytorch360convert"
+version = "0.0.1"
+license = {file = "LICENSE"}
+dependencies = ["pytorch360convert"]
+
+[project.urls]
+Repository = "https://github.com/ProGamerGov/ComfyUI_pytorch360convert_video"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "progamergov"
+DisplayName = "ComfyUI_pytorch360convert_video"
+Icon = ""
