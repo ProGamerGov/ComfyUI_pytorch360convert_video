@@ -2,6 +2,8 @@
 
 Custom [ComfyUI](https://github.com/comfyanonymous/ComfyUI) nodes for creating 360 degree video.
 
+Currently this set of custom nodes provides the ability create videos of the camera moving across a 360 degree image in a circular path.
+
 
 ## 📚 Nodes
 
@@ -10,6 +12,8 @@ The custom nodes added by this project are available under the 'pytorch360conver
 ### Create 360 Sweep Video Frames
 
 This node will generate video frames by sweeping through one or more equirectangular images. Frames will be saved to the specified directory.
+
+Use this node if you have limited memory available, and then use [FFmpeg](https://www.ffmpeg.org/) to convert the frames to a video.
 
 ### Create 360 Sweep Video Frames Tensor
 
