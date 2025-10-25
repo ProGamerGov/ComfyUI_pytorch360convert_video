@@ -2,6 +2,8 @@
 
 Custom [ComfyUI](https://github.com/comfyanonymous/ComfyUI) nodes for creating 360 degree video.
 
+Currently this set of custom nodes provides the ability create videos of the camera moving across a 360 degree image in a circular path.
+
 
 ## 📚 Nodes
 
