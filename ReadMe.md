@@ -13,12 +13,13 @@ The custom nodes added by this project are available under the 'pytorch360conver
 
 This node will generate video frames by sweeping through one or more equirectangular images. Frames will be saved to the specified directory.
 
-Use this node if you have limited memory available, and then use [FFmpeg](https://www.ffmpeg.org/) to convert the frames to a video.
+Use [FFmpeg](https://www.ffmpeg.org/) to convert the frames to a video.
 
 ### Create 360 Sweep Video Frames Tensor
 
 This node will generate video frames by sweeping through one or more equirectangular images. Frames will be returned as a stack of tensors.
 
+Only use this node if you have a lot of extra memory available.
 
 ## 🌐 Related
 
